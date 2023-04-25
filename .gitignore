@@ -1,1 +1,19 @@
+# Dependencias
 /node_modules
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de configuración de IDEs
+.idea
+.vscode
+
+# Archivos compilados
+/dist
+/build
+
+# Otros archivos
+.DS_Store
+Thumbs.db

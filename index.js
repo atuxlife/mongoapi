@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const authMiddleware = require("./middlewares/auth");
 const authRoutes = require("./routes/authRoutes");
 const restauranteRoutes = require("./routes/restauranteRoutes");
 const productoRoutes = require("./routes/productoRoutes");

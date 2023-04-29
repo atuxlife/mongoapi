@@ -18,10 +18,6 @@ app.use("/restaurantes", restauranteRoutes);
 app.use("/productos", productoRoutes);
 app.use("/pedidos", pedidoRoutes);
 
-app.get("/api/protected", authMiddleware, (req, res) => {
-  res.json({ message: "Este endpoint está protegido" });
-});
-
 mongoose
   .connect(process.env.DB_URI, {
     useNewUrlParser: true,
